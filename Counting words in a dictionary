@@ -9,3 +9,22 @@ for i in names:
     count[i] = count[i] + 1
 
 print(count)
+
+
+
+
+
+
+// Another Method 
+
+
+
+
+count = dict()
+
+names = ['arjun','saravanavel','aryan','saravanavel','vijay','aryan','saravanavel','saravanavel','saravanavel','saravanavel']
+
+for i in names:
+  count[i] = count.get(i,0) + 1
+
+print(count)
