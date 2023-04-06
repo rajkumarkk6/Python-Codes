@@ -1,0 +1,6 @@
+#code
+
+d = {'Hello' : 2, 'Ultimate' :50,'There' : 5, }
+
+
+print(sorted([(v,k) for k, v in d.items()]))
